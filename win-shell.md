@@ -1,11 +1,14 @@
 ### Windows Shell
 
-Get OS Architecture
+###### Get OS Architecture
 ```
 > wmic os get osarchitecture
 
 OSArchitecture
 64-bit
 ```
-Show history
+###### Show history
+
 F7
+
+###
