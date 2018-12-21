@@ -67,26 +67,78 @@ git log --pretty="%h - %s" --author='Junio C Hamano' --since="2008-10-01" --befo
 | %cr | Committer date, relative |
 | %s | Subject |
 
-##### Undoing things
+## 1. Getting Started
+
+
+### 1.1 About version control
+
+### 1.2 A Short History of Git
+
+### 1.3 Git Basics
+
+### 1.4 The Command Line
+
+### 1.5 Installing Git
+
+### 1.6 First Time Git Setup
+
+### 1.7 Getting Help
+
+### 1.8 Summary
+
+## 2. Git Basics
+
+### 2.1 Getting a Git Repository
+
+### 2.2 Recording Changes to the Repository
+
+### 2.3 Viewing the Commit History
+
+### 2.4 Undoing things
 ```bash
 git commit -m 'initial commit'
 git add forgotten_file
 git commit --amend  # 'initial commit' will be completely replaced by amended
 ```
 
-#### Move changes from master to branch (that is clean)
-```bash
-git status
-> On branch master, ahead of origin/master by 2 commits
-
-git checkout my-new-branch-that-is-clean-rebased-from-master
-git merge master
-> Updating blah
-
-git status
-> on branch my.... , ahead of origin/my... by two commits
-
-git checkout master
-
-git reset --head HEAD~2 # Push master back by two commits - losing the work
-```
+### 2.5
+### 2.6
+### 2.7
+### 2.8
+## 3. Git Branching
+### 3.1
+### 3.2
+### 3.3
+### 3.4
+### 3.5
+### 3.6
+### 3.7
+## 4. Git on the Server
+### 4.1
+### 4.2
+### 4.3
+### 4.4
+### 4.5
+### 4.6
+### 4.7
+### 4.8
+### 4.9
+### 4.10
+## 5. Distributed Git
+###
+## 6. GitHub
+###
+## 7. Git Tools
+###
+## 8. Customizing Git
+###
+## 9. Git and Other Systems
+###
+## 10. Git Internals
+###
+## A1. Git in Other Environments
+###
+## A2. Embedding Git in your Applications
+###
+## A3. Git Commands
+###

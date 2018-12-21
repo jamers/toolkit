@@ -11,4 +11,5 @@ OSArchitecture
 
 F7
 
-###
+### Find a given file on PATH
+for %i in (java.exe) do @echo.   %~$PATH:i

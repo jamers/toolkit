@@ -9,5 +9,5 @@
 
 ### Testing
 ```java
-assertEquals("Message to diplay on error", 1, 2-1);
+assertEquals("Message to display on error", 1, 2-1);
 ```
