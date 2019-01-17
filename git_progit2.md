@@ -127,9 +127,9 @@ origin https://github.com/other/cribsheets (push)
 git fetch jamers
 ```
 
-### 2.6 Tagging
-### 2.7 Git Aliases
-### 2.8 Summary
+### 2.6 [Tagging]()
+### 2.7 [Git Aliases]()
+### 2.8 [Summary]()
 ## 3. Git Branching
 ### 3.1 Branches in a Nutshell
 ### 3.2 Basic Branching and Merging
