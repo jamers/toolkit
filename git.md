@@ -1,5 +1,39 @@
 # Git
 
+##### List all branches including remotes (seems to include deleted?)
+```bash
+git branch -lr # -l list, -r remote
+```
+
+###### Rebase a feature branch back onto the epic
+```bash
+Starting state
+| master
+|\_ release/EPIC-1
+|  \_ feature/STORY-1
+```
+Timeline
+- master exists
+- EPIC-1 cut
+- STORY-1 cut from EPIC-1
+- master advances 500 commits
+- STORY-1 has changes pushed
+- EPIC-1 rebased to master
+
+Now want to rebase STORY-1, and push changes into EPIC-1
+```bash
+# Commands
+git checkout release/EPIC-1
+git pull
+git checkout feature/STORY-1
+git pull
+git rebase release/EPIC-1
+# optional - manually fix rebase in e.g. Intellij
+git rebase --continue # if merge conflicts
+git push
+# If branches have diverged it means that your local version of STORY-1 changes are different to the repo, because it has been rebased
+git push -f
+```
 
 ###### Create a new repo and add it to github
 ```bash
