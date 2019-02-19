@@ -7,6 +7,15 @@ The purposes of this repo are:
 
 Files are written in Markdown, likely best viewed using e.g. Atom
 
+## Structure
+* cheat-sheets
+* code
+    * java
+* gists
+    * vcs
+* study
+    * [Enterprise Integration Patterns](/study/eai.md)
+
 
 ## Useful Links
 * Markdown
@@ -16,10 +25,10 @@ Files are written in Markdown, likely best viewed using e.g. Atom
   * [Website for generating Cron for Quartz](https://www.freeformatter.com/cron-expression-generator-quartz.html)
 
 ## Subjects Overview
-| Category | Topic | Snippets | Tutorials |
-| --- | --- | --- | --- |
-| VCS | Git | [Git](/git.md) | [Pro Git 2 Book](/study/git_progit2.md) |
-| No SQL DB | Mongo |  | [MongoDB](/study/mongo_tutorialspoint.md) |
+| Category | Topic | Snippets | Study | gists | Code |
+| --- | --- | --- | --- | --- | --- |
+| VCS | Git | [Git](/vcs/git.md) | [Pro Git 2 Book](/study/git_progit2.md) | | |
+| No SQL DB | Mongo |  | [MongoDB](/study/mongo_tutorialspoint.md) |  |  |
 
 
 ## Wishlist
