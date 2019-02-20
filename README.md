@@ -9,6 +9,20 @@ Files are written in Markdown, likely best viewed using e.g. Atom
 
 ## Structure
 * cheat-sheets
+  * shell
+    * [Bash Profile](/cheat-sheets/shell/bash_profile.md)
+    * [Unix](/cheat-sheets/shell/unix-shell.md)
+    * [Windows](/cheat-sheets/shell/win-shell.md)
+  * vcs
+    * [Git](/cheat-sheets/vcs/git.md)
+    * [SVN](/cheat-sheets/vcs/svn.md)
+  * [cron](/cron.md)
+  * [Preparing a new environment]()
+  * [IntelliJ]()
+  * [Java]()
+  * [Jira]()
+  * [Markdown]()
+  * [Regular Expressions]()
 * code
     * java
 * gists
