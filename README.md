@@ -7,7 +7,7 @@ The purposes of this repo are:
 
 Files are written in Markdown, likely best viewed using e.g. Atom
 
-## Structure
+## Subject Hierarchy
 * cheat-sheets
   * shell
     * [Bash Profile](/cheat-sheets/shell/bash_profile.md)
@@ -30,6 +30,12 @@ Files are written in Markdown, likely best viewed using e.g. Atom
 * study
     * [Enterprise Integration Patterns](/study/eai.md)
 
+## Subject Matrix
+| Category | Topic | Snippets | Study | gists | Code |
+| --- | --- | --- | --- | --- | --- |
+| VCS | Git | [Git](/vcs/git.md) | [Pro Git 2 Book](/study/git_progit2.md) | | |
+| No SQL DB | Mongo |  | [MongoDB](/study/mongo_tutorialspoint.md) |  |  |
+
 
 ## Useful Links
 * Markdown
@@ -38,11 +44,9 @@ Files are written in Markdown, likely best viewed using e.g. Atom
 * Java and Java related
   * [Website for generating Cron for Quartz](https://www.freeformatter.com/cron-expression-generator-quartz.html)
 
-## Subjects Overview
-| Category | Topic | Snippets | Study | gists | Code |
-| --- | --- | --- | --- | --- | --- |
-| VCS | Git | [Git](/vcs/git.md) | [Pro Git 2 Book](/study/git_progit2.md) | | |
-| No SQL DB | Mongo |  | [MongoDB](/study/mongo_tutorialspoint.md) |  |  |
+## In Progress
+* Pro Git 2
+* MongoDB Tutorial
 
 
 ## Wishlist
@@ -51,7 +55,16 @@ Files are written in Markdown, likely best viewed using e.g. Atom
 * [Environment Prep Tutorial](/environment_setup.md)
 * [Transactions](/transactions.md)
 * [Unix Shell](/unix.md)
-
-## In Progress
-* Pro Git 2
-* MongoDB Tutorial
+* Java
+  * threads
+  * heap space
+  * old gen
+  * new gen
+  * perm gen
+* Databases
+  * SQL
+    * Oracle
+  * NoSQL
+* Microservices
+  * Docker
+  * Openshift
