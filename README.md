@@ -1,4 +1,4 @@
-# crib-sheets
+# toolkit
 
 The purposes of this repo are:
 * To collect useful snippets of code, the sort of things that have to be looked up on StackOverflow once every 6 months.
