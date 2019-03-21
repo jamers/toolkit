@@ -71,3 +71,9 @@ git reset --head HEAD~2 # Push master back by two commits - losing the work
 git merge-base branch2 branch3
 050dc022f3a65bdc78d97e2b1ac9b595a924c3f2
 ```
+
+#### Git cherry pick
+````bash
+git cherry-pick abcd2763..bed9892e
+git cherry-pick abcd2763^..bed9892e # ^ means include first revision
+````

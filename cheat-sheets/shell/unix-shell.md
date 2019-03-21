@@ -9,6 +9,11 @@ grep -r --include *.properties "value-to-search-for" .
 
 ```
 
+### awk
+```bash
+ps -ef | grep "Host Controller" | awk '{ print $2 " " $8 " " $9 " " $NF}'  
+```
+
 ### Disk Usage
 ```bash
 df -h /tmp/
