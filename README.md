@@ -34,7 +34,7 @@ Files are written in Markdown, likely best viewed using e.g. Atom
 | Category | Topic | Snippets | Study | gists | Code |
 | --- | --- | --- | --- | --- | --- |
 | VCS | Git | [Git](/vcs/git.md) | [Pro Git 2 Book](/study/git_progit2.md) | | |
-| No SQL DB | Mongo |  | [MongoDB](/study/mongo_tutorialspoint.md) |  |  |
+| No SQL DB | Mongo |  | [MongoDB](/study/mongo_tutorialspoint.md) |  |  |  |
 
 
 ## Useful Links
@@ -43,28 +43,89 @@ Files are written in Markdown, likely best viewed using e.g. Atom
   * [Guide to drawing tables in Markdown](https://www.tablesgenerator.com/markdown_tables)
 * Java and Java related
   * [Website for generating Cron for Quartz](https://www.freeformatter.com/cron-expression-generator-quartz.html)
+* Free Online Tutorials
+  * [Tutorials Point](https://www.tutorialspoint.com/tutorialslibrary.htm)
+
 
 ## In Progress
 * Pro Git 2
 * MongoDB Tutorial
 
+## Reading List
+* Design Patterns
+* Rapid Development
+* Java Concurrency in Practice
+* Enterprise Integration Patterns
+* Soft Skills
+* The Well Grounded Java Developer
+* Java Software Solutions
+* Other
+  * Information Systems Development
+  * Object Oriented Analysis and Design with Applications
 
-## Wishlist
-* [Regular Expressions](/regex.md)
-* [EAI patterns](/eai.md)
+## Wishlist/Tickets
+* [Regular Expressions](/regex.md) [(Issue)](https://github.com/jamers/toolkit/issues/1)
+* [EAI patterns](/eai.md) [(Issue)](https://github.com/jamers/toolkit/issues/2)
 * [Environment Prep Tutorial](/environment_setup.md)
-* [Transactions](/transactions.md)
 * [Unix Shell](/unix.md)
+  * awk
+  * sed
+  * grep
+  * Unix https://www.tutorialspoint.com/unix/index.htm
+  * Linux admin https://www.tutorialspoint.com/linux_admin/index.htm
 * Java
   * threads
   * heap space
   * old gen
   * new gen
   * perm gen
+  * Java learning Trails  
+    * https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html
+      * JNDI
+      * Lambda expressions
+      * Aggregate Operations
+      * Generics
+      * JAXP
+      * RMI
+      * Concurrency
+    * https://docs.oracle.com/javase/tutorial/index.html
+      * JAXB
+  * Java 7, 8, 9, 10, 11
+  * Concurrency
+  * Generics
 * Databases
+  * [Transactions](/transactions.md) [(Issue)](https://github.com/jamers/toolkit/issues/3)
   * SQL
     * Oracle
+    * Sybase
   * NoSQL
+    * Mongo
+  * Hibernate
+  * Postgres
+  * MySQL
+  * T-SQL
 * Microservices
   * Docker
+  * Elasticsearch
+  * Kubernetes
+  * Logstash
   * Openshift
+* Build
+  * Apache Ant
+  * Maven
+  * Gradle
+* Scala
+
+## Wishlist non professional
+* Clojure
+* Drools
+* Erlang
+* Go
+* Perl
+* Prolog
+* Python
+* Ruby
+* Vaadin
+* Tutorials point
+  * Advanced Excel Charts
+  * Advanced Excel Functions
