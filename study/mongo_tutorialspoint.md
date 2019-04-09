@@ -226,3 +226,8 @@ $last
 Gets the last document from the source documents according to the grouping. Typically this makes only sense together with some previously applied “$sort”-stage.
 db.mycol.aggregate([{$group : {_id : "$by_user", last_url : {$last : "$url"}}}])
 ```
+
+### Replication
+### Sharding
+### Create Backup
+### Deployment
