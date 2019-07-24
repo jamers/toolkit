@@ -13,6 +13,15 @@ grep -r --include *.properties "value-to-search-for" .
 ```bash
 ps -ef | grep "Host Controller" | awk '{ print $2 " " $8 " " $9 " " $NF}'  
 ```
+* Structure: BEGIN block, BODY block, END block
+* Begin & end execute once, body on each line
+* Begin & end optional
+* Syntax
+```bash
+BEGIN {commands}
+/pattern/ {commands}
+END {commands}
+```
 
 ### Disk Usage
 ```bash

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.jamers</groupId>
-    <artifactId>crib-sheets-java</artifactId>
+    <artifactId>toolkit</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
