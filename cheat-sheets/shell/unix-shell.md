@@ -26,6 +26,7 @@ END {commands}
 ### Disk Usage
 ```bash
 df -h /tmp/
+df -h .
 ```
 
 ### Pipes
@@ -49,6 +50,11 @@ TODO https://www.tecmint.com/18-tar-command-examples-in-linux/
 ```bash
 tar -zcvf archive-name.tar.gz directory-name
 tar -zcvf jdk7_40.tar.gz jdk7
+```
+
+### rm
+```
+ls | egrep -v tomcat | xargs rm -r
 ```
 
 ### SCP
