@@ -16,7 +16,7 @@ ps -ef | grep "Host Controller" | awk '{ print $2 " " $8 " " $9 " " $NF}'
 * Structure: BEGIN block, BODY block, END block
 * Begin & end execute once, body on each line
 * Begin & end optional
-* Syntax
+* Syntax 
 ```bash
 BEGIN {commands}
 /pattern/ {commands}
