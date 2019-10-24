@@ -28,8 +28,8 @@ END {commands}
 df -h /tmp/
 df -h .
 
-du -hsc *
-# Find sizes h=human readable, s=summarize, c=total
+du -hsc * # Find sizes h=human readable, s=summarize, c=total
+du . | sort -n | tail -200 | tee size.txt
 ```
 
 ### Pipes
