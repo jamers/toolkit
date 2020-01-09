@@ -1,5 +1,16 @@
 # Git
 
+## Config
+git config --global user.name "Bob Monkhouse"
+git config --global user.email "bm@email.com"
+
+git config user.name "Bob Monkhouse"
+git config user.email "bm@email.com"
+
+## Have written code on the wrong branch
+git checkout correctExistingBranch
+git checkout -b newBranchWhereIwantMyChanges
+
 ##### List all branches including remotes (seems to include deleted?)
 ```bash
 git branch -lr # -l list, -r remote
