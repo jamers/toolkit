@@ -16,6 +16,11 @@ git checkout -b newBranchWhereIwantMyChanges
 git branch -lr # -l list, -r remote
 ```
 
+# Oh dear I have commit my code on master instead of my branch
+git reset --soft HEAD~1 (where 1 is number of commits)
+git checkout correct-branch
+git add .
+
 ###### Rebase a feature branch back onto the epic
 ```bash
 Starting state

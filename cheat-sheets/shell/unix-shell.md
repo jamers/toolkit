@@ -1,3 +1,9 @@
+clear
+echo / printf
+cut
+sort
+uname
+
 ### find
 
 ### grep
